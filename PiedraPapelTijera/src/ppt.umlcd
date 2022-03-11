@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_zQBHkKFhEeyrT6E3m1PbaA">
+  <modelElement href="ppt.uml#_yrvV0KFhEeyrT6E3m1PbaA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_zcoAMKFhEeyrT6E3m1PbaA" targetItem="_zc3Qx6FhEeyrT6E3m1PbaA" sourceItem="_zcmyEKFhEeyrT6E3m1PbaA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_zc2psKFhEeyrT6E3m1PbaA" sourceAnchor="124.0,0.0" targetAnchor="104.0,137.0" target="_zd5LgKFhEeyrT6E3m1PbaA" source="_zc3Qx6FhEeyrT6E3m1PbaA">
+    <modelElement href="ppt.uml#_zZt2IKFhEeyrT6E3m1PbaA"/>
+    <stereotypes xmi:id="_zc2psaFhEeyrT6E3m1PbaA" name="Reference">
+      <modelElement href="ppt.uml#_zZvEQKFhEeyrT6E3m1PbaA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_zc3QwKFhEeyrT6E3m1PbaA" text="">
+      <visualProperties xmi:id="_ziQuIKFhEeyrT6E3m1PbaA" position="-26.9014954077534,-63.56180457650643"/>
+    </nameVisual>
+    <sourceRole xmi:id="_zc3QwaFhEeyrT6E3m1PbaA" aggregationKind="NONE" name="">
+      <modelElement href="ppt.uml#_zZt2IaFhEeyrT6E3m1PbaA"/>
+      <visualProperties xmi:id="_ziQHEKFhEeyrT6E3m1PbaA" position="-18.67419517535521,-71.83774586467965"/>
+      <visibility xmi:id="_zc3QwqFhEeyrT6E3m1PbaA" label="+"/>
+      <cardinality xmi:id="_zc3Qw6FhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_zc3QxKFhEeyrT6E3m1PbaA" aggregationKind="NONE" name="parser" navigable="true">
+      <modelElement href="ppt.uml#_zZUNgKFhEeyrT6E3m1PbaA"/>
+      <visualProperties xmi:id="_ziQuIaFhEeyrT6E3m1PbaA" position="-34.05943368842088,-75.52864863771748"/>
+      <visibility xmi:id="_zc3QxaFhEeyrT6E3m1PbaA" label="-"/>
+      <cardinality xmi:id="_zc3QxqFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_zdlpgaFhEeyrT6E3m1PbaA" targetItem="_zdm3oKFhEeyrT6E3m1PbaA" sourceItem="_zdlpgKFhEeyrT6E3m1PbaA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_zdrJEKFhEeyrT6E3m1PbaA" sourceAnchor="209.0,69.0" targetAnchor="177.0,308.0" target="_zduzeaFhEeyrT6E3m1PbaA" source="_zd5LgKFhEeyrT6E3m1PbaA">
+    <modelElement href="ppt.uml#_zZvrUaFhEeyrT6E3m1PbaA"/>
+    <bendpoints xmi:id="_ziPgAKFhEeyrT6E3m1PbaA" sourceX="255" targetY="124"/>
+    <stereotypes xmi:id="_zds-Q6FhEeyrT6E3m1PbaA" name="Reference">
+      <modelElement href="ppt.uml#_zZw5cKFhEeyrT6E3m1PbaA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_zds-QKFhEeyrT6E3m1PbaA" text="">
+      <visualProperties xmi:id="_ziRVMaFhEeyrT6E3m1PbaA" position="-167.6796820184448,-17.03494258116021"/>
+    </nameVisual>
+    <sourceRole xmi:id="_zds-QaFhEeyrT6E3m1PbaA" aggregationKind="NONE" name="">
+      <modelElement href="ppt.uml#_zZvrUqFhEeyrT6E3m1PbaA"/>
+      <visualProperties xmi:id="_ziRVMKFhEeyrT6E3m1PbaA" position="44.60169722565621,-34.397944823784925"/>
+      <visibility xmi:id="_zdtlUaFhEeyrT6E3m1PbaA" label="+"/>
+      <cardinality xmi:id="_zdtlUKFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_zds-QqFhEeyrT6E3m1PbaA" aggregationKind="NONE" name="moves" navigable="true">
+      <modelElement href="ppt.uml#_zZYe8KFhEeyrT6E3m1PbaA"/>
+      <visualProperties xmi:id="_ziR8QKFhEeyrT6E3m1PbaA" position="-126.54128983709916,89.52505881763209"/>
+      <stereotypes xmi:id="_zdtlVKFhEeyrT6E3m1PbaA" name="LegacyStyledElement">
+        <modelElement href="ppt.uml#_zZYe8aFhEeyrT6E3m1PbaA"/>
+      </stereotypes>
+      <visibility xmi:id="_zdtlU6FhEeyrT6E3m1PbaA" label="-"/>
+      <cardinality xmi:id="_zdtlUqFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_zduzcKFhEeyrT6E3m1PbaA" source="_zduzeaFhEeyrT6E3m1PbaA">
+    <modelElement href="ppt.uml#_zZvEQaFhEeyrT6E3m1PbaA"/>
+    <stereotypes xmi:id="_zduzcaFhEeyrT6E3m1PbaA" name="Reference">
+      <modelElement href="ppt.uml#_zZvrUKFhEeyrT6E3m1PbaA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_zduzcqFhEeyrT6E3m1PbaA" text=""/>
+    <sourceRole xmi:id="_zduzc6FhEeyrT6E3m1PbaA" aggregationKind="NONE" name="">
+      <modelElement href="ppt.uml#_zZvEQqFhEeyrT6E3m1PbaA"/>
+      <visibility xmi:id="_zduzdKFhEeyrT6E3m1PbaA" label="+"/>
+      <cardinality xmi:id="_zduzdaFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_zduzdqFhEeyrT6E3m1PbaA" aggregationKind="NONE" name="rnd" navigable="true">
+      <modelElement href="ppt.uml#_zZX34qFhEeyrT6E3m1PbaA"/>
+      <visibility xmi:id="_zduzd6FhEeyrT6E3m1PbaA" label="-"/>
+      <cardinality xmi:id="_zduzeKFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_zd4kcKFhEeyrT6E3m1PbaA" source="_zd5LgKFhEeyrT6E3m1PbaA">
+    <modelElement href="ppt.uml#_zZw5caFhEeyrT6E3m1PbaA"/>
+    <stereotypes xmi:id="_zd4kcaFhEeyrT6E3m1PbaA" name="Reference">
+      <modelElement href="ppt.uml#_zZxggKFhEeyrT6E3m1PbaA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_zd4kcqFhEeyrT6E3m1PbaA" text=""/>
+    <sourceRole xmi:id="_zd4kc6FhEeyrT6E3m1PbaA" aggregationKind="NONE" name="">
+      <modelElement href="ppt.uml#_zZw5cqFhEeyrT6E3m1PbaA"/>
+      <visibility xmi:id="_zd4kdKFhEeyrT6E3m1PbaA" label="+"/>
+      <cardinality xmi:id="_zd4kdaFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_zd4kdqFhEeyrT6E3m1PbaA" aggregationKind="NONE" name="reader" navigable="true">
+      <modelElement href="ppt.uml#_zZYe8qFhEeyrT6E3m1PbaA"/>
+      <visibility xmi:id="_zd4kd6FhEeyrT6E3m1PbaA" label="-"/>
+      <cardinality xmi:id="_zd4keKFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_zcmyEKFhEeyrT6E3m1PbaA" sourceConnectionVisual="_zcoAMKFhEeyrT6E3m1PbaA" text="Clase principal.&#xA;VersiÃ³n 1.0&#xA;Autor: Profesor Entorno Desarrollo" item="_zc3Qx6FhEeyrT6E3m1PbaA">
+    <modelElement href="ppt.uml#_zZrZ5KFhEeyrT6E3m1PbaA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_zdlpgKFhEeyrT6E3m1PbaA" sourceConnectionVisual="_zdlpgaFhEeyrT6E3m1PbaA" text="Class that stores a move" item="_zdm3oKFhEeyrT6E3m1PbaA">
+    <modelElement href="ppt.uml#_zZsA8KFhEeyrT6E3m1PbaA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_zc3Qx6FhEeyrT6E3m1PbaA" comments="_zcmyEKFhEeyrT6E3m1PbaA" targetConnectionVisual="_zcoAMKFhEeyrT6E3m1PbaA" name="Game" associationsOut="_zc2psKFhEeyrT6E3m1PbaA">
+    <modelElement href="ppt.uml#_zYl0wKFhEeyrT6E3m1PbaA"/>
+    <visualProperties xmi:id="_zc3QyKFhEeyrT6E3m1PbaA" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_zc3QyaFhEeyrT6E3m1PbaA" label="+"/>
+    <attributes xmi:id="_zc3QyqFhEeyrT6E3m1PbaA" name="parser">
+      <modelElement href="ppt.uml#_zZUNgKFhEeyrT6E3m1PbaA"/>
+      <stereotypes xmi:id="_zc3Qy6FhEeyrT6E3m1PbaA" name="LegacyStyledElement">
+        <modelElement href="ppt.uml#_zZU0kKFhEeyrT6E3m1PbaA"/>
+      </stereotypes>
+      <visibility xmi:id="_zc3QzKFhEeyrT6E3m1PbaA" label="-"/>
+      <cardinality xmi:id="_zc3QzaFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+      <type xmi:id="_zc3QzqFhEeyrT6E3m1PbaA" name="Parser">
+        <modelElement href="ppt.uml#_zZArgKFhEeyrT6E3m1PbaA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_zc3Qz6FhEeyrT6E3m1PbaA" name="Game">
+      <modelElement href="ppt.uml#_zYsicKFhEeyrT6E3m1PbaA"/>
+      <keywords xmi:id="_zc3Q0KFhEeyrT6E3m1PbaA" keyword="create"/>
+      <visibility xmi:id="_zc3Q0aFhEeyrT6E3m1PbaA" label="+"/>
+      <cardinality xmi:id="_zc3Q0qFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zc3Q06FhEeyrT6E3m1PbaA">
+        <modelElement href="ppt.uml#_zYtwkqFhEeyrT6E3m1PbaA"/>
+        <type xmi:id="_zc3Q1KFhEeyrT6E3m1PbaA" name="Game">
+          <modelElement href="ppt.uml#_zYl0wKFhEeyrT6E3m1PbaA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_zc3Q1aFhEeyrT6E3m1PbaA" name="welcome">
+      <modelElement href="ppt.uml#_zYuXoKFhEeyrT6E3m1PbaA"/>
+      <visibility xmi:id="_zc3Q1qFhEeyrT6E3m1PbaA" label="-"/>
+      <cardinality xmi:id="_zc3Q16FhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zc3Q2KFhEeyrT6E3m1PbaA" name="printHelp">
+      <modelElement href="ppt.uml#_zYuXoaFhEeyrT6E3m1PbaA"/>
+      <visibility xmi:id="_zc3Q2aFhEeyrT6E3m1PbaA" label="-"/>
+      <cardinality xmi:id="_zc3Q2qFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zc3Q26FhEeyrT6E3m1PbaA" name="computerMove">
+      <modelElement href="ppt.uml#_zYuXoqFhEeyrT6E3m1PbaA"/>
+      <visibility xmi:id="_zc3Q3KFhEeyrT6E3m1PbaA" label="-"/>
+      <cardinality xmi:id="_zc3Q3aFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zc3Q3qFhEeyrT6E3m1PbaA">
+        <modelElement href="ppt.uml#_zZJOYKFhEeyrT6E3m1PbaA"/>
+        <type xmi:id="_zc3Q36FhEeyrT6E3m1PbaA" name="Move">
+          <modelElement href="ppt.uml#_zY0eQKFhEeyrT6E3m1PbaA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_zc3Q4KFhEeyrT6E3m1PbaA" name="printWinner">
+      <modelElement href="ppt.uml#_zYvlwKFhEeyrT6E3m1PbaA"/>
+      <visibility xmi:id="_zc3Q4aFhEeyrT6E3m1PbaA" label="-"/>
+      <cardinality xmi:id="_zc3Q4qFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_zc3Q46FhEeyrT6E3m1PbaA" name="who">
+        <modelElement href="ppt.uml#_zYwM0KFhEeyrT6E3m1PbaA"/>
+        <cardinality xmi:id="_zc3Q5KFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+        <type xmi:id="_zc3Q5aFhEeyrT6E3m1PbaA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_zc3Q5qFhEeyrT6E3m1PbaA" name="playGame">
+      <modelElement href="ppt.uml#_zYwz4KFhEeyrT6E3m1PbaA"/>
+      <visibility xmi:id="_zc3Q56FhEeyrT6E3m1PbaA" label="+"/>
+      <cardinality xmi:id="_zc3Q6KFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zc3Q6aFhEeyrT6E3m1PbaA" name="main" staticOperation="true">
+      <modelElement href="ppt.uml#_zYwz4aFhEeyrT6E3m1PbaA"/>
+      <visibility xmi:id="_zc3Q6qFhEeyrT6E3m1PbaA" label="+"/>
+      <cardinality xmi:id="_zc3Q66FhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_zc3Q7KFhEeyrT6E3m1PbaA" name="args">
+        <modelElement href="ppt.uml#_zYwz4qFhEeyrT6E3m1PbaA"/>
+        <cardinality xmi:id="_zc3Q7aFhEeyrT6E3m1PbaA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_zc3Q7qFhEeyrT6E3m1PbaA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_zc3Q76FhEeyrT6E3m1PbaA" name="printMoves">
+      <modelElement href="ppt.uml#_zZJ1cKFhEeyrT6E3m1PbaA"/>
+      <visibility xmi:id="_zc3Q8KFhEeyrT6E3m1PbaA" label="-"/>
+      <cardinality xmi:id="_zc3Q8aFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_zc3Q8qFhEeyrT6E3m1PbaA" name="player">
+        <modelElement href="ppt.uml#_zZJ1caFhEeyrT6E3m1PbaA"/>
+        <cardinality xmi:id="_zc3Q86FhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+        <type xmi:id="_zc3Q9KFhEeyrT6E3m1PbaA" name="Move">
+          <modelElement href="ppt.uml#_zY0eQKFhEeyrT6E3m1PbaA"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zc3Q9aFhEeyrT6E3m1PbaA" name="computer">
+        <modelElement href="ppt.uml#_zZJ1cqFhEeyrT6E3m1PbaA"/>
+        <cardinality xmi:id="_zc3Q9qFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+        <type xmi:id="_zc3Q96FhEeyrT6E3m1PbaA" name="Move">
+          <modelElement href="ppt.uml#_zY0eQKFhEeyrT6E3m1PbaA"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_zc3Q-KFhEeyrT6E3m1PbaA" name="processMove">
+      <modelElement href="ppt.uml#_zZJ1c6FhEeyrT6E3m1PbaA"/>
+      <visibility xmi:id="_zc3Q-aFhEeyrT6E3m1PbaA" label="-"/>
+      <cardinality xmi:id="_zc3Q-qFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zc3Q-6FhEeyrT6E3m1PbaA">
+        <modelElement href="ppt.uml#_zZKcgKFhEeyrT6E3m1PbaA"/>
+        <type xmi:id="_zc3Q_KFhEeyrT6E3m1PbaA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_zc3Q_aFhEeyrT6E3m1PbaA" name="move">
+        <modelElement href="ppt.uml#_zZJ1dKFhEeyrT6E3m1PbaA"/>
+        <cardinality xmi:id="_zc3Q_qFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+        <type xmi:id="_zc3Q_6FhEeyrT6E3m1PbaA" name="Move">
+          <modelElement href="ppt.uml#_zY0eQKFhEeyrT6E3m1PbaA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_zdm3oKFhEeyrT6E3m1PbaA" comments="_zdlpgKFhEeyrT6E3m1PbaA" targetConnectionVisual="_zdlpgaFhEeyrT6E3m1PbaA" name="Move">
+    <modelElement href="ppt.uml#_zY0eQKFhEeyrT6E3m1PbaA"/>
+    <visualProperties xmi:id="_zdm3oaFhEeyrT6E3m1PbaA" position="-275.0,48.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_zdm3oqFhEeyrT6E3m1PbaA" label="+"/>
+    <attributes xmi:id="_zdm3o6FhEeyrT6E3m1PbaA" name="move">
+      <modelElement href="ppt.uml#_zZVboKFhEeyrT6E3m1PbaA"/>
+      <visibility xmi:id="_zdm3pKFhEeyrT6E3m1PbaA" label="+"/>
+      <cardinality xmi:id="_zdm3paFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+      <type xmi:id="_zdm3pqFhEeyrT6E3m1PbaA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_zdm3p6FhEeyrT6E3m1PbaA" name="Move">
+      <modelElement href="ppt.uml#_zY1FUKFhEeyrT6E3m1PbaA"/>
+      <keywords xmi:id="_zdm3qKFhEeyrT6E3m1PbaA" keyword="create"/>
+      <visibility xmi:id="_zdm3qaFhEeyrT6E3m1PbaA" label="+"/>
+      <cardinality xmi:id="_zdm3qqFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zdm3q6FhEeyrT6E3m1PbaA">
+        <modelElement href="ppt.uml#_zY1sYaFhEeyrT6E3m1PbaA"/>
+        <type xmi:id="_zdm3rKFhEeyrT6E3m1PbaA" name="Move">
+          <modelElement href="ppt.uml#_zY0eQKFhEeyrT6E3m1PbaA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_zdm3raFhEeyrT6E3m1PbaA" name="Move">
+      <modelElement href="ppt.uml#_zY1sYqFhEeyrT6E3m1PbaA"/>
+      <keywords xmi:id="_zdm3rqFhEeyrT6E3m1PbaA" keyword="create"/>
+      <visibility xmi:id="_zdm3r6FhEeyrT6E3m1PbaA" label="+"/>
+      <cardinality xmi:id="_zdm3sKFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zdm3saFhEeyrT6E3m1PbaA">
+        <modelElement href="ppt.uml#_zY1sZqFhEeyrT6E3m1PbaA"/>
+        <type xmi:id="_zdm3sqFhEeyrT6E3m1PbaA" name="Move">
+          <modelElement href="ppt.uml#_zY0eQKFhEeyrT6E3m1PbaA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_zdm3s6FhEeyrT6E3m1PbaA" name="move">
+        <modelElement href="ppt.uml#_zY1sY6FhEeyrT6E3m1PbaA"/>
+        <cardinality xmi:id="_zdm3tKFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+        <type xmi:id="_zdm3taFhEeyrT6E3m1PbaA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_zdm3tqFhEeyrT6E3m1PbaA" name="isUnknown">
+      <modelElement href="ppt.uml#_zY2TcKFhEeyrT6E3m1PbaA"/>
+      <visibility xmi:id="_zdm3t6FhEeyrT6E3m1PbaA" label="+"/>
+      <cardinality xmi:id="_zdm3uKFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zdm3uaFhEeyrT6E3m1PbaA">
+        <modelElement href="ppt.uml#_zY2TcaFhEeyrT6E3m1PbaA"/>
+        <type xmi:id="_zdm3uqFhEeyrT6E3m1PbaA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_zdm3u6FhEeyrT6E3m1PbaA" name="beats">
+      <modelElement href="ppt.uml#_zZLDkKFhEeyrT6E3m1PbaA"/>
+      <visibility xmi:id="_zdm3vKFhEeyrT6E3m1PbaA" label="+"/>
+      <cardinality xmi:id="_zdm3vaFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zdm3vqFhEeyrT6E3m1PbaA">
+        <modelElement href="ppt.uml#_zZLDkqFhEeyrT6E3m1PbaA"/>
+        <type xmi:id="_zdm3v6FhEeyrT6E3m1PbaA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_zdm3wKFhEeyrT6E3m1PbaA" name="other">
+        <modelElement href="ppt.uml#_zZLDkaFhEeyrT6E3m1PbaA"/>
+        <cardinality xmi:id="_zdm3waFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+        <type xmi:id="_zdm3wqFhEeyrT6E3m1PbaA" name="Move">
+          <modelElement href="ppt.uml#_zY0eQKFhEeyrT6E3m1PbaA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_zduzeaFhEeyrT6E3m1PbaA" name="MoveWords" associationsIn="_zdrJEKFhEeyrT6E3m1PbaA" associationsOut="_zduzcKFhEeyrT6E3m1PbaA">
+    <modelElement href="ppt.uml#_zY6k4KFhEeyrT6E3m1PbaA"/>
+    <visualProperties xmi:id="_zduzeqFhEeyrT6E3m1PbaA" position="337.0,-525.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_zduze6FhEeyrT6E3m1PbaA" label="+"/>
+    <attributes xmi:id="_zduzfKFhEeyrT6E3m1PbaA" defaultValue="0" name="EMPATE" staticAttribute="true">
+      <modelElement href="ppt.uml#_zZWCsKFhEeyrT6E3m1PbaA"/>
+      <visibility xmi:id="_zduzfaFhEeyrT6E3m1PbaA" label="+"/>
+      <cardinality xmi:id="_zduzfqFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+      <type xmi:id="_zduzf6FhEeyrT6E3m1PbaA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zduzgKFhEeyrT6E3m1PbaA" defaultValue="1" name="GANA" staticAttribute="true">
+      <modelElement href="ppt.uml#_zZWCsqFhEeyrT6E3m1PbaA"/>
+      <visibility xmi:id="_zduzgaFhEeyrT6E3m1PbaA" label="+"/>
+      <cardinality xmi:id="_zduzgqFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+      <type xmi:id="_zduzg6FhEeyrT6E3m1PbaA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zduzhKFhEeyrT6E3m1PbaA" defaultValue="2" name="PIERDE" staticAttribute="true">
+      <modelElement href="ppt.uml#_zZWpwaFhEeyrT6E3m1PbaA"/>
+      <visibility xmi:id="_zduzhaFhEeyrT6E3m1PbaA" label="+"/>
+      <cardinality xmi:id="_zduzhqFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+      <type xmi:id="_zduzh6FhEeyrT6E3m1PbaA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zduziKFhEeyrT6E3m1PbaA" defaultValue="{&quot;TIJERAS&quot;, &quot;PAPEL&quot;, &quot;PIEDRA&quot;}" name="validMoves" staticAttribute="true">
+      <modelElement href="ppt.uml#_zZWpw6FhEeyrT6E3m1PbaA"/>
+      <stereotypes xmi:id="_zduziaFhEeyrT6E3m1PbaA" name="Array">
+        <modelElement href="ppt.uml#_zZXQ0KFhEeyrT6E3m1PbaA"/>
+      </stereotypes>
+      <visibility xmi:id="_zduziqFhEeyrT6E3m1PbaA" label="-"/>
+      <cardinality xmi:id="_zduzi6FhEeyrT6E3m1PbaA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_zduzjKFhEeyrT6E3m1PbaA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zduzjaFhEeyrT6E3m1PbaA" defaultValue="{&quot;SALIR&quot;, &quot;HELP&quot;}" name="validCommands" staticAttribute="true">
+      <modelElement href="ppt.uml#_zZXQ0qFhEeyrT6E3m1PbaA"/>
+      <stereotypes xmi:id="_zduzjqFhEeyrT6E3m1PbaA" name="Array">
+        <modelElement href="ppt.uml#_zZX34KFhEeyrT6E3m1PbaA"/>
+      </stereotypes>
+      <visibility xmi:id="_zduzj6FhEeyrT6E3m1PbaA" label="-"/>
+      <cardinality xmi:id="_zduzkKFhEeyrT6E3m1PbaA" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_zduzkaFhEeyrT6E3m1PbaA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zduzkqFhEeyrT6E3m1PbaA" name="rnd">
+      <modelElement href="ppt.uml#_zZX34qFhEeyrT6E3m1PbaA"/>
+      <stereotypes xmi:id="_zduzk6FhEeyrT6E3m1PbaA" name="LegacyStyledElement">
+        <modelElement href="ppt.uml#_zZX346FhEeyrT6E3m1PbaA"/>
+      </stereotypes>
+      <visibility xmi:id="_zduzlKFhEeyrT6E3m1PbaA" label="-"/>
+      <cardinality xmi:id="_zduzlaFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+      <type xmi:id="_zduzlqFhEeyrT6E3m1PbaA" name="Random">
+        <modelElement href="ppt.uml#_zZLqoKFhEeyrT6E3m1PbaA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_zduzl6FhEeyrT6E3m1PbaA" name="MoveWords">
+      <modelElement href="ppt.uml#_zY8aEKFhEeyrT6E3m1PbaA"/>
+      <keywords xmi:id="_zduzmKFhEeyrT6E3m1PbaA" keyword="create"/>
+      <visibility xmi:id="_zduzmaFhEeyrT6E3m1PbaA" label="+"/>
+      <cardinality xmi:id="_zduzmqFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zduzm6FhEeyrT6E3m1PbaA">
+        <modelElement href="ppt.uml#_zY8aE6FhEeyrT6E3m1PbaA"/>
+        <type xmi:id="_zduznKFhEeyrT6E3m1PbaA" name="MoveWords">
+          <modelElement href="ppt.uml#_zY6k4KFhEeyrT6E3m1PbaA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_zduznaFhEeyrT6E3m1PbaA" name="isValidMoveCommand">
+      <modelElement href="ppt.uml#_zY9BIKFhEeyrT6E3m1PbaA"/>
+      <visibility xmi:id="_zduznqFhEeyrT6E3m1PbaA" label="+"/>
+      <cardinality xmi:id="_zduzn6FhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zduzoKFhEeyrT6E3m1PbaA">
+        <modelElement href="ppt.uml#_zY9BIqFhEeyrT6E3m1PbaA"/>
+        <type xmi:id="_zduzoaFhEeyrT6E3m1PbaA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_zduzoqFhEeyrT6E3m1PbaA" name="value">
+        <modelElement href="ppt.uml#_zY9BIaFhEeyrT6E3m1PbaA"/>
+        <cardinality xmi:id="_zduzo6FhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+        <type xmi:id="_zduzpKFhEeyrT6E3m1PbaA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_zduzpaFhEeyrT6E3m1PbaA" name="randomMove">
+      <modelElement href="ppt.uml#_zY9BI6FhEeyrT6E3m1PbaA"/>
+      <visibility xmi:id="_zduzpqFhEeyrT6E3m1PbaA" label="+"/>
+      <cardinality xmi:id="_zduzp6FhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zduzqKFhEeyrT6E3m1PbaA">
+        <modelElement href="ppt.uml#_zY9BJKFhEeyrT6E3m1PbaA"/>
+        <type xmi:id="_zduzqaFhEeyrT6E3m1PbaA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_zduzqqFhEeyrT6E3m1PbaA" name="showMoves">
+      <modelElement href="ppt.uml#_zY9oMKFhEeyrT6E3m1PbaA"/>
+      <visibility xmi:id="_zduzq6FhEeyrT6E3m1PbaA" label="+"/>
+      <cardinality xmi:id="_zduzrKFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zduzraFhEeyrT6E3m1PbaA" name="showCommands">
+      <modelElement href="ppt.uml#_zY9oMaFhEeyrT6E3m1PbaA"/>
+      <visibility xmi:id="_zduzrqFhEeyrT6E3m1PbaA" label="+"/>
+      <cardinality xmi:id="_zduzr6FhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zduzsKFhEeyrT6E3m1PbaA" name="showWords">
+      <modelElement href="ppt.uml#_zY9oMqFhEeyrT6E3m1PbaA"/>
+      <visibility xmi:id="_zduzsaFhEeyrT6E3m1PbaA" label="+"/>
+      <cardinality xmi:id="_zduzsqFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zduzs6FhEeyrT6E3m1PbaA" name="getIndex" staticOperation="true">
+      <modelElement href="ppt.uml#_zY-PQKFhEeyrT6E3m1PbaA"/>
+      <visibility xmi:id="_zduztKFhEeyrT6E3m1PbaA" label="-"/>
+      <cardinality xmi:id="_zduztaFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zduztqFhEeyrT6E3m1PbaA">
+        <modelElement href="ppt.uml#_zY-PQqFhEeyrT6E3m1PbaA"/>
+        <type xmi:id="_zduzt6FhEeyrT6E3m1PbaA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_zduzuKFhEeyrT6E3m1PbaA" name="value">
+        <modelElement href="ppt.uml#_zY-PQaFhEeyrT6E3m1PbaA"/>
+        <cardinality xmi:id="_zduzuaFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+        <type xmi:id="_zduzuqFhEeyrT6E3m1PbaA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_zduzu6FhEeyrT6E3m1PbaA" name="checkWinner" staticOperation="true">
+      <modelElement href="ppt.uml#_zY-2UKFhEeyrT6E3m1PbaA"/>
+      <visibility xmi:id="_zduzvKFhEeyrT6E3m1PbaA" label="+"/>
+      <cardinality xmi:id="_zduzvaFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zduzvqFhEeyrT6E3m1PbaA">
+        <modelElement href="ppt.uml#_zY-2U6FhEeyrT6E3m1PbaA"/>
+        <type xmi:id="_zduzv6FhEeyrT6E3m1PbaA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_zduzwKFhEeyrT6E3m1PbaA" name="first">
+        <modelElement href="ppt.uml#_zY-2UaFhEeyrT6E3m1PbaA"/>
+        <cardinality xmi:id="_zduzwaFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+        <type xmi:id="_zduzwqFhEeyrT6E3m1PbaA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_zduzw6FhEeyrT6E3m1PbaA" name="second">
+        <modelElement href="ppt.uml#_zY-2UqFhEeyrT6E3m1PbaA"/>
+        <cardinality xmi:id="_zduzxKFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+        <type xmi:id="_zduzxaFhEeyrT6E3m1PbaA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_zd5LgKFhEeyrT6E3m1PbaA" name="Parser" associationsIn="_zc2psKFhEeyrT6E3m1PbaA" associationsOut="_zdrJEKFhEeyrT6E3m1PbaA _zd4kcKFhEeyrT6E3m1PbaA">
+    <modelElement href="ppt.uml#_zZArgKFhEeyrT6E3m1PbaA"/>
+    <visualProperties xmi:id="_zd5LgaFhEeyrT6E3m1PbaA" position="50.0,-162.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_zd5LgqFhEeyrT6E3m1PbaA" label="+"/>
+    <attributes xmi:id="_zd5Lg6FhEeyrT6E3m1PbaA" name="moves">
+      <modelElement href="ppt.uml#_zZYe8KFhEeyrT6E3m1PbaA"/>
+      <visibility xmi:id="_zd5LhKFhEeyrT6E3m1PbaA" label="-"/>
+      <cardinality xmi:id="_zd5LhaFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+      <type xmi:id="_zd5LhqFhEeyrT6E3m1PbaA" name="MoveWords">
+        <modelElement href="ppt.uml#_zY6k4KFhEeyrT6E3m1PbaA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_zd5Lh6FhEeyrT6E3m1PbaA" name="reader">
+      <modelElement href="ppt.uml#_zZYe8qFhEeyrT6E3m1PbaA"/>
+      <stereotypes xmi:id="_zd5LiKFhEeyrT6E3m1PbaA" name="LegacyStyledElement">
+        <modelElement href="ppt.uml#_zZZGAKFhEeyrT6E3m1PbaA"/>
+      </stereotypes>
+      <visibility xmi:id="_zd5LiaFhEeyrT6E3m1PbaA" label="-"/>
+      <cardinality xmi:id="_zd5LiqFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+      <type xmi:id="_zd5Li6FhEeyrT6E3m1PbaA" name="Scanner">
+        <modelElement href="ppt.uml#_zZQjIKFhEeyrT6E3m1PbaA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_zd5LjKFhEeyrT6E3m1PbaA" name="Parser">
+      <modelElement href="ppt.uml#_zZB5oKFhEeyrT6E3m1PbaA"/>
+      <keywords xmi:id="_zd5LjaFhEeyrT6E3m1PbaA" keyword="create"/>
+      <visibility xmi:id="_zd5LjqFhEeyrT6E3m1PbaA" label="+"/>
+      <cardinality xmi:id="_zd5Lj6FhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zd5LkKFhEeyrT6E3m1PbaA">
+        <modelElement href="ppt.uml#_zZB5o6FhEeyrT6E3m1PbaA"/>
+        <type xmi:id="_zd5LkaFhEeyrT6E3m1PbaA" name="Parser">
+          <modelElement href="ppt.uml#_zZArgKFhEeyrT6E3m1PbaA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_zd5LkqFhEeyrT6E3m1PbaA" name="showCommands">
+      <modelElement href="ppt.uml#_zZB5pKFhEeyrT6E3m1PbaA"/>
+      <visibility xmi:id="_zd5Lk6FhEeyrT6E3m1PbaA" label="+"/>
+      <cardinality xmi:id="_zd5LlKFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_zd5LlaFhEeyrT6E3m1PbaA" name="newRandomMove">
+      <modelElement href="ppt.uml#_zZCgsKFhEeyrT6E3m1PbaA"/>
+      <visibility xmi:id="_zd5LlqFhEeyrT6E3m1PbaA" label="+"/>
+      <cardinality xmi:id="_zd5Ll6FhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zd5LmKFhEeyrT6E3m1PbaA">
+        <modelElement href="ppt.uml#_zZSYUKFhEeyrT6E3m1PbaA"/>
+        <type xmi:id="_zd5LmaFhEeyrT6E3m1PbaA" name="Move">
+          <modelElement href="ppt.uml#_zY0eQKFhEeyrT6E3m1PbaA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_zd5LmqFhEeyrT6E3m1PbaA" name="getMove">
+      <modelElement href="ppt.uml#_zZCgsaFhEeyrT6E3m1PbaA"/>
+      <visibility xmi:id="_zd5Lm6FhEeyrT6E3m1PbaA" label="+"/>
+      <cardinality xmi:id="_zd5LnKFhEeyrT6E3m1PbaA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_zd5LnaFhEeyrT6E3m1PbaA">
+        <modelElement href="ppt.uml#_zZSYUaFhEeyrT6E3m1PbaA"/>
+        <type xmi:id="_zd5LnqFhEeyrT6E3m1PbaA" name="Move">
+          <modelElement href="ppt.uml#_zY0eQKFhEeyrT6E3m1PbaA"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
